@@ -1,35 +1,33 @@
 ```
-apt-get install -y iamerican
-zcat /usr/share/ispell/american.mwl.gz > /tmp/american.mwl
 go get github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator
-go run ~/go/src/github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator/main.go -d /tmp/american.mwl
+go run ~/go/src/github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator/main.go -d /usr/lib/python3/dist-packages/mnemonic/wordlist/english.txt
 ```
 
 result:
 ```
 $ go run ~/go/src/github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator/main.go -d /tmp/american.mwl 
- 1: line
- 2: unidimensional
- 3: fanaticism
- 4: knuth
- 5: truculent
- 6: edgewise
- 7: browse
- 8: shill
- 9: overborne
-10: vague
-11: anchorage
-12: contentious
-13: brilliant
-14: penthouse
-15: snowy
-16: clouded
-17: simpatico
-18: flavorful
-19: adjudication
-20: sat
-21: shovel
-22: derangement
-23: reparable
-24: punch
+ 1: chrysostom
+ 2: worldwide
+ 3: gauze
+ 4: hoarseness
+ 5: orthodontist
+ 6: photostatting
+ 7: renee
+ 8: tweet
+ 9: phi
+10: flawless
+11: weeper
+12: skate
+13: philippians
+14: dishonor
+15: jeannine
+16: failure
+17: eulogize
+18: guiana
+19: byrd
+20: abdominal
+21: deprogramming
+22: thyrotoxic
+23: bun
+24: activates
 ```
