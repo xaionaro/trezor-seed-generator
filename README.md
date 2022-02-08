@@ -1,11 +1,12 @@
 ```
-go get github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator
-go run ~/go/src/github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator/main.go
+go run github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator@latest
 ```
 
 result:
 ```
-$ go run ~/go/src/github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator/main.go
+$ go run github.com/xaionaro/trezor-seed-generator/trezorSeedGenerator@latest
+go: finding module for package github.com/tyler-smith/go-bip39
+go: found github.com/tyler-smith/go-bip39 in github.com/tyler-smith/go-bip39 v1.1.0
  1: helmet
  2: surround
  3: agree
